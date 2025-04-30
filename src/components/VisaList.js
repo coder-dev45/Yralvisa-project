@@ -5,10 +5,10 @@ import visaData from '../Datas/visaData'; // Make sure visaData is correctly imp
 
 const VisaCardList = () => (
   <Container>
-    <Row className="flex-nowrap overflow-auto">
+    <Row>
       {visaData.map((item, index) => (
-        <Col key={index} xs={10} md={4} lg={3}>
-          <VisaCard data={item} /> {/* This passes the correct image and data */}
+        <Col key={index} xs={12} sm={6} md={3} className="mb-4">
+          <VisaCard data={item} />
         </Col>
       ))}
     </Row>
