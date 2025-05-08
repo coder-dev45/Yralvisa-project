@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
+import Contact from './components/company/Contact';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ import VisaCardList from './components/VisaList';
 import BottomToggle from './components/BottomToggle';
 import Footer from './components/Footer';
 import CareersSection from './components/company/Careers';
+import Visaontime from './components/VisasOnTime';
 
 function HomePage() {
   return (
@@ -23,6 +25,7 @@ function HomePage() {
       <FilterTabs />
       <VisaCardList />
       <BottomToggle />
+      <Visaontime/>
       <Footer />
     </>
   );
@@ -43,6 +46,19 @@ function App() {
             </>
           }
         />
+
+    <Route
+          path="/contact"
+          element={
+            <>
+              <Header />
+              <Contact /> {/* <- Add this */}
+            </>
+          }
+        />
+
+
+
       </Routes>
     </Router>
   );

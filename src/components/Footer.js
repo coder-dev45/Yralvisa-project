@@ -12,9 +12,9 @@ const Footer = () => {
             <h6 className="fw-bold mb-4">Company</h6>
             <ul className="list-unstyled">
               <li className="mb-3"><a href="/careers" className="text-dark text-decoration-none">Careers</a></li> {/* updated ID */}
-              <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Blog</a></li>
-              <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Newsroom</a></li>
-              <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Contact</a></li>
+              <li className="mb-3"><a href="/Blog" className="text-dark text-decoration-none">Blog</a></li>
+              <li className="mb-3"><a href="/Newsroom" className="text-dark text-decoration-none">Newsroom</a></li>
+              <li className="mb-3"><a href="/contact" className="text-dark text-decoration-none">Contact</a></li>
               <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Partners</a></li>
               <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Inwards Out</a></li>
             </ul>
@@ -23,7 +23,7 @@ const Footer = () => {
           <Col md={3} className="mb-3 py-3">
             <h6 className="fw-bold mb-4">Products</h6>
             <ul className="list-unstyled">
-              <li className="mb-3"><a href="#" className="text-dark text-decoration-none">AtlysX</a></li>
+              <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Yralvisa</a></li>
               <li className="mb-3"><a href="#" className="text-dark text-decoration-none">For Travel Agents</a></li>
               <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Security</a></li>
               <li className="mb-3"><a href="#" className="text-dark text-decoration-none">Transparency</a></li>

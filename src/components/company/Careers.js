@@ -73,7 +73,7 @@ const CareersSection = () => {
       <Navbar bg="white" expand="md" className="border-bottom py-3 shadow-sm">
         <Container>
           <Navbar.Brand as={Link} to="/" className="fw-bold">
-            <span className="text-dark">atlys<sup>®</sup></span> VISAS ON TIME
+            <span className="text-dark">Yralvisa<sup>®</sup></span> VISAS ON TIME
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="main-navbar" />
           <Navbar.Collapse id="main-navbar">
